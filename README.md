@@ -1,5 +1,5 @@
 # ZumHub-Key-system-Library
-Key system using https://junkie-development.de
+Key system using junkie development
 
 
  ## Config
