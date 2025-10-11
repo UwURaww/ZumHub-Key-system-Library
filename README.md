@@ -2,8 +2,8 @@
 
 https://github.com/user-attachments/assets/1ef044fc-9f30-41e5-888a-720f93479a56
 
-
-Key system using [Junkie development](https://junkie-development.de/)
+>[!NOTE]
+>Key system using [Junkie development](https://junkie-development.de/)
 
 
 
@@ -146,5 +146,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 VOILA YOU'RE DONE 
 you just need to insert you api key and insert
 your service and providers name
-
-# By Jardin-ZumHub Yt
+>[!NOTE]
+># By Jardin-ZumHub Yt
