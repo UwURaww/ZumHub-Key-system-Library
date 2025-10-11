@@ -3,8 +3,7 @@
 ---
 
 <div align="center">
-  <img src="<img width="3072" height="1888" alt="1000443504" src="https://github.com/user-attachments/assets/b78ff0d2-a0b2-4b65-82f8-34d371701708" />
-" alt="ZumHub Banner" width="60%" />
+  <img src="https://github.com/user-attachments/assets/b78ff0d2-a0b2-4b65-82f8-34d371701708" alt="ZumHub Banner" width="60%" />
 </div>
 
 > **Note**  
