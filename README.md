@@ -1,13 +1,18 @@
 # ZumHub-Key-system-Library
 
-https://github.com/user-attachments/assets/1ef044fc-9f30-41e5-888a-720f93479a56
+---
 
->[!NOTE]
->Key system using [Junkie development](https://junkie-development.de/)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1ef044fc-9f30-41e5-888a-720f93479a56" alt="ZumHub Banner" width="60%" />
+</div>
 
+> **Note**  
+> This Key system uses [Junkie development](https://junkie-development.de/)
 
+---
 
- ## Config
+## ⚙️ Config
+
 ```lua
 -- Config Fields
 title = "ZumHub Key System"
@@ -57,15 +62,18 @@ if getgenv().CustomConfig then
 end
 ```
 
+---
 
-## Main Script (REQUIRED)
+## 🚀 Main Script (**Required**)
+
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Key%20system%20main.lua.txt",true))()
 ```
 
+---
 
+# 🌟 Implementation Example
 
-# implementation
 ```lua
 -- Config Fields
 title = "ZumHub Key System"
@@ -115,36 +123,38 @@ if getgenv().CustomConfig then
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Key%20system%20main.lua.txt",true))()
-
 ```
 
+---
 
+# 🛠️ Setup Guide
 
+## 🔑 Login Steps
 
+1. Go to [junkie-development.de](https://junkie-development.de).
+    <div align="center"><img src="https://github.com/user-attachments/assets/9f447da6-c9c8-4587-8399-e70e8ff523b8" width="60%"/></div>
+2. Click **Start Now** and **Login**.<br>
+    <div align="center"><img src="https://github.com/user-attachments/assets/6822770f-f92f-4075-a1b5-6840155b196c" width="60%"/></div>
+3. Create a **Service**.<br>
+    <div align="center"><img src="https://github.com/user-attachments/assets/28069675-eb29-4ec5-9891-15079f356954" width="60%"/></div>
+    <div align="center"><img src="https://github.com/user-attachments/assets/0b200502-e80c-43f4-a9d5-c59326a79c95" width="60%"/></div>
+4. Add **Integration**.<br>
+    <div align="center"><img src="https://github.com/user-attachments/assets/a69158df-4f7b-40e6-a6c1-a0bb6db296f6" width="60%"/></div>
+5. Create **Providers**.<br>
+    <div align="center"><img src="https://github.com/user-attachments/assets/2f1323d2-b25a-4a61-8ea5-a236c73a1b33" width="60%"/></div>
+    <div align="center"><img src="https://github.com/user-attachments/assets/03e21629-2b20-4ac5-b00c-a4880cf41c00" width="60%"/></div>
+6. Create **API Keys**.<br>
+    <div align="center"><img src="https://github.com/user-attachments/assets/9e2b0915-b3da-4f20-a687-95b80c88d3e2" width="60%"/></div>
+    <div align="center"><img src="https://github.com/user-attachments/assets/02fc9394-de9d-4f37-a1b0-a89a4f129c4e" width="60%"/></div>
 
+---
 
-# Seting up
-## Login
-1.go to junkie-development.de.  
-![1000443357](https://github.com/user-attachments/assets/9f447da6-c9c8-4587-8399-e70e8ff523b8)
-2.Click Start Now and Login.  
-![1000443359](https://github.com/user-attachments/assets/6822770f-f92f-4075-a1b5-6840155b196c)
-3.Create service 
-![1000443360](https://github.com/user-attachments/assets/28069675-eb29-4ec5-9891-15079f356954)
+## 🎉 Finish
 
-![1000443361](https://github.com/user-attachments/assets/0b200502-e80c-43f4-a9d5-c59326a79c95)
-4.Add integration 
-![1000443362](https://github.com/user-attachments/assets/a69158df-4f7b-40e6-a6c1-a0bb6db296f6)
-5.Create providers
-![1000443364](https://github.com/user-attachments/assets/2f1323d2-b25a-4a61-8ea5-a236c73a1b33)
-![1000443370](https://github.com/user-attachments/assets/03e21629-2b20-4ac5-b00c-a4880cf41c00)
-6.Create API Keys
-![1000443491](https://github.com/user-attachments/assets/9e2b0915-b3da-4f20-a687-95b80c88d3e2)
-![1000443367](https://github.com/user-attachments/assets/02fc9394-de9d-4f37-a1b0-a89a4f129c4e)
+**VOILA, YOU'RE DONE!**  
+Just insert your API key, service, and provider names into your config.
 
-## Finnish 
-VOILA YOU'RE DONE 
-you just need to insert you api key and insert
-your service and providers name
->[!NOTE]
-># By Jardin-ZumHub Yt
+> **Note**  
+> # By Jardin-ZumHub Yt
+
+---
