@@ -57,3 +57,6 @@ end
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Key%20system%20main.lua.txt",true))()
 ```
+# Seting up
+## Login
+1.go to junkie-development.de
