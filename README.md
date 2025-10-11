@@ -1,11 +1,10 @@
 # ZumHub-Key-system-Library
-This code usng [Junkie development](https://junkie-development.de/)
-
 
 https://github.com/user-attachments/assets/1ef044fc-9f30-41e5-888a-720f93479a56
 
 
-Key system using junkie development
+Key system using [Junkie development](https://junkie-development.de/)
+
 
 
  ## Config
