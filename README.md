@@ -23,7 +23,7 @@ KeySystemData = {
         Error = Color3.fromRGB(255, 80, 80),
         Success = Color3.fromRGB(80, 255, 100),
         Discord = Color3.fromRGB(160, 80, 255)
-    },
+    }, 
     Service = "ZumHubKey",
     SilentMode = false,
     WebsiteURL = "https://yourwebsite.com/"
@@ -80,3 +80,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 VOILA YOU'RE DONE 
 you just need to insert you api key and insert
 your service and providers name
+
+# By Jardin-ZumHub Yt
