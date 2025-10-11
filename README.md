@@ -139,7 +139,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 ![1000443364](https://github.com/user-attachments/assets/2f1323d2-b25a-4a61-8ea5-a236c73a1b33)
 ![1000443370](https://github.com/user-attachments/assets/03e21629-2b20-4ac5-b00c-a4880cf41c00)
 6.Create API Keys
-![1000443370](https://github.com/user-attachments/assets/004b2e2b-cfbb-450d-8a3c-b1bb5047f5e0)
+![1000443491](https://github.com/user-attachments/assets/9e2b0915-b3da-4f20-a687-95b80c88d3e2)
 ![1000443367](https://github.com/user-attachments/assets/02fc9394-de9d-4f37-a1b0-a89a4f129c4e)
 
 ## Finnish 
