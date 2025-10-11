@@ -59,4 +59,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 ```
 # Seting up
 ## Login
-1.go to junkie-development.de
+1.go to junkie-development.de.  
+![1000443357](https://github.com/user-attachments/assets/9f447da6-c9c8-4587-8399-e70e8ff523b8)
+2.Click Start Now and Login.  
+![1000443359](https://github.com/user-attachments/assets/6822770f-f92f-4075-a1b5-6840155b196c)
+3.Create service 
+![1000443360](https://github.com/user-attachments/assets/754c6c82-e8e3-49e8-9aec-66a964be529c)
+![1000443361](https://github.com/user-attachments/assets/0b200502-e80c-43f4-a9d5-c59326a79c95)
+4.Add integration 
+![1000443362](https://github.com/user-attachments/assets/a69158df-4f7b-40e6-a6c1-a0bb6db296f6)
