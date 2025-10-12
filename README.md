@@ -15,9 +15,9 @@
 
 ```lua
 Config = {
-    api = "267cefc7-580e-4b3b-bf65-6b3e7d9784ed",
-    service = "ZumHub",
-    provider = "ZumHub",
+    api = "_API_",
+    service = "_Service_",
+    provider = "_provider_",
     discordInvite = "kv5wr2Naj", -- Change this to update the Discord invite link
     title = "ZumHub Key System", -- Change this to update the GUI title
     keyFileName = "Zumhubkey.txt", -- Change this to update the saved key filename
