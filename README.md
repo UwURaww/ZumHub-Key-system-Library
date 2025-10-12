@@ -1,4 +1,4 @@
-# ZumHub-Key-system-Library
+# ZumHub Key System Library
 
 ---
 
@@ -6,12 +6,22 @@
   <img src="https://github.com/user-attachments/assets/b78ff0d2-a0b2-4b65-82f8-34d371701708" alt="ZumHub Banner" width="100%" />
 </div>
 
-> **Note**  
-> This Key system uses [Junkie development](https://junkie-development.de/)
+<p align="center">
+  <b>Professional, Customizable Key System for Roblox GUIs</b><br>
+  <i>Powered by <a href="https://junkie-development.de/">Junkie Development</a></i>
+</p>
 
 ---
 
-## ⚙️ Config
+## ✨ Overview
+
+ZumHub Key System Library offers a modern, highly customizable, and secure key-based authentication for Roblox GUIs. Simplify access control and user management in your scripts with easy configuration and seamless integration.
+
+---
+
+## ⚙️ Configuration
+
+Easily adjust every aspect of your key system to match your branding and workflow.
 
 ```lua
 -- Config Section
@@ -19,37 +29,39 @@ Config = {
     api = "_API_",
     service = "_Service_",
     provider = "_provider_",
-    discordInvite = "kv5wr2Naj", -- Change this to update the Discord invite link
-    title = "ZumHub Key System", -- Change this to update the GUI title
-    keyFileName = "Zumhubkey.txt", -- Change this to update the saved key filename
-    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Change this to update the script to execute
+    discordInvite = "kv5wr2Naj", -- Discord invite link
+    title = "ZumHub Key System", -- GUI title
+    keyFileName = "Zumhubkey.txt", -- Saved key filename
+    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Script to execute on success
     sounds = {
-        uiOpen = "rbxassetid://6655851046", -- Sound when UI opens
-        buttonClick = "rbxassetid://6655851046", -- Sound for button clicks
-        success = "rbxassetid://6655851046", -- Sound for successful key validation
-        successDiscord = "rbxassetid://6655851046", -- Sound for Discord button
-        error = "rbxassetid://6655851046", -- Sound for errors
-        accessDenied = "rbxassetid://6655851046" -- Sound for invalid key
+        uiOpen = "rbxassetid://6655851046",
+        buttonClick = "rbxassetid://6655851046",
+        success = "rbxassetid://6655851046",
+        successDiscord = "rbxassetid://6655851046",
+        error = "rbxassetid://6655851046",
+        accessDenied = "rbxassetid://6655851046"
     },
     colors = {
-        background = Color3.fromRGB(10, 10, 25), -- Main frame background
-        backgroundGradientFrom = Color3.fromRGB(10, 10, 30), -- Gradient start
-        backgroundGradientTo = Color3.fromRGB(5, 5, 15), -- Gradient end
-        title = Color3.fromRGB(0, 255, 200), -- Title and button text
-        inputField = Color3.fromRGB(20, 20, 40), -- Input field background
-        inputFieldBorder = Color3.fromRGB(0, 200, 255), -- Input field and button borders
-        button = Color3.fromRGB(30, 30, 50), -- Button background
-        buttonHover = Color3.fromRGB(50, 50, 80), -- Button hover background
-        error = Color3.fromRGB(255, 80, 80), -- Error message text
-        success = Color3.fromRGB(80, 255, 100), -- Success message text
-        discord = Color3.fromRGB(160, 80, 255) -- Discord button background
+        background = Color3.fromRGB(10, 10, 25),
+        backgroundGradientFrom = Color3.fromRGB(10, 10, 30),
+        backgroundGradientTo = Color3.fromRGB(5, 5, 15),
+        title = Color3.fromRGB(0, 255, 200),
+        inputField = Color3.fromRGB(20, 20, 40),
+        inputFieldBorder = Color3.fromRGB(0, 200, 255),
+        button = Color3.fromRGB(30, 30, 50),
+        buttonHover = Color3.fromRGB(50, 50, 80),
+        error = Color3.fromRGB(255, 80, 80),
+        success = Color3.fromRGB(80, 255, 100),
+        discord = Color3.fromRGB(160, 80, 255)
     }
 }
 ```
 
 ---
 
-## 🚀 Main Script (**Required**)
+## 🚀 Quick Start
+
+Add the following to your script to instantly enable the ZumHub Key System:
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Key%20system%20main.lua.txt",true))()
@@ -57,7 +69,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 
 ---
 
-# 🌟 Implementation Example
+## 💡 Example Implementation
 
 ```lua
 -- Config Section
@@ -65,66 +77,69 @@ Config = {
     api = "_API_",
     service = "_Service_",
     provider = "_provider_",
-    discordInvite = "kv5wr2Naj", -- Change this to update the Discord invite link
-    title = "ZumHub Key System", -- Change this to update the GUI title
-    keyFileName = "Zumhubkey.txt", -- Change this to update the saved key filename
-    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Change this to update the script to execute
+    discordInvite = "kv5wr2Naj", -- Discord invite link
+    title = "ZumHub Key System", -- GUI title
+    keyFileName = "Zumhubkey.txt", -- Saved key filename
+    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Script to execute on success
     sounds = {
-        uiOpen = "rbxassetid://6655851046", -- Sound when UI opens
-        buttonClick = "rbxassetid://6655851046", -- Sound for button clicks
-        success = "rbxassetid://6655851046", -- Sound for successful key validation
-        successDiscord = "rbxassetid://6655851046", -- Sound for Discord button
-        error = "rbxassetid://6655851046", -- Sound for errors
-        accessDenied = "rbxassetid://6655851046" -- Sound for invalid key
+        uiOpen = "rbxassetid://6655851046",
+        buttonClick = "rbxassetid://6655851046",
+        success = "rbxassetid://6655851046",
+        successDiscord = "rbxassetid://6655851046",
+        error = "rbxassetid://6655851046",
+        accessDenied = "rbxassetid://6655851046"
     },
     colors = {
-        background = Color3.fromRGB(10, 10, 25), -- Main frame background
-        backgroundGradientFrom = Color3.fromRGB(10, 10, 30), -- Gradient start
-        backgroundGradientTo = Color3.fromRGB(5, 5, 15), -- Gradient end
-        title = Color3.fromRGB(0, 255, 200), -- Title and button text
-        inputField = Color3.fromRGB(20, 20, 40), -- Input field background
-        inputFieldBorder = Color3.fromRGB(0, 200, 255), -- Input field and button borders
-        button = Color3.fromRGB(30, 30, 50), -- Button background
-        buttonHover = Color3.fromRGB(50, 50, 80), -- Button hover background
-        error = Color3.fromRGB(255, 80, 80), -- Error message text
-        success = Color3.fromRGB(80, 255, 100), -- Success message text
-        discord = Color3.fromRGB(160, 80, 255) -- Discord button background
+        background = Color3.fromRGB(10, 10, 25),
+        backgroundGradientFrom = Color3.fromRGB(10, 10, 30),
+        backgroundGradientTo = Color3.fromRGB(5, 5, 15),
+        title = Color3.fromRGB(0, 255, 200),
+        inputField = Color3.fromRGB(20, 20, 40),
+        inputFieldBorder = Color3.fromRGB(0, 200, 255),
+        button = Color3.fromRGB(30, 30, 50),
+        buttonHover = Color3.fromRGB(50, 50, 80),
+        error = Color3.fromRGB(255, 80, 80),
+        success = Color3.fromRGB(80, 255, 100),
+        discord = Color3.fromRGB(160, 80, 255)
     }
 }
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Key%20system%20main.lua.txt",true))()
 ```
 
 ---
 
-# 🛠️ Setup Guide
+## 🛠️ Setup Guide
 
-## 🔑 Login Steps
+### 1. Register & Configure on Junkie Development
 
-1. Go to [junkie-development.de](https://junkie-development.de).
-    <div align="center"><img src="https://github.com/user-attachments/assets/9f447da6-c9c8-4587-8399-e70e8ff523b8" width="60%"/></div>
-2. Click **Start Now** and **Login**.<br>
-    <div align="center"><img src="https://github.com/user-attachments/assets/6822770f-f92f-4075-a1b5-6840155b196c" width="60%"/></div>
-3. Create a **Service**.<br>
-    <div align="center"><img src="https://github.com/user-attachments/assets/28069675-eb29-4ec5-9891-15079f356954" width="60%"/></div>
-    <div align="center"><img src="https://github.com/user-attachments/assets/0b200502-e80c-43f4-a9d5-c59326a79c95" width="60%"/></div>
-4. Add **Integration**.<br>
-    <div align="center"><img src="https://github.com/user-attachments/assets/a69158df-4f7b-40e6-a6c1-a0bb6db296f6" width="60%"/></div>
-5. Create **Providers**.<br>
-    <div align="center"><img src="https://github.com/user-attachments/assets/2f1323d2-b25a-4a61-8ea5-a236c73a1b33" width="60%"/></div>
-    <div align="center"><img src="https://github.com/user-attachments/assets/03e21629-2b20-4ac5-b00c-a4880cf41c00" width="60%"/></div>
-6. Create **API Keys**.<br>
-    <div align="center"><img src="https://github.com/user-attachments/assets/9e2b0915-b3da-4f20-a687-95b80c88d3e2" width="60%"/></div>
-    <div align="center"><img src="https://github.com/user-attachments/assets/02fc9394-de9d-4f37-a1b0-a89a4f129c4e" width="60%"/></div>
+1. Go to <a href="https://junkie-development.de/" target="_blank"><b>junkie-development.de</b></a>  
+   <div align="center"><img src="https://github.com/user-attachments/assets/9f447da6-c9c8-4587-8399-e70e8ff523b8" width="60%"/></div>
+2. Click <b>Start Now</b> and log in.  
+   <div align="center"><img src="https://github.com/user-attachments/assets/6822770f-f92f-4075-a1b5-6840155b196c" width="60%"/></div>
+3. Create a <b>Service</b>.  
+   <div align="center"><img src="https://github.com/user-attachments/assets/28069675-eb29-4ec5-9891-15079f356954" width="60%"/></div>
+   <div align="center"><img src="https://github.com/user-attachments/assets/0b200502-e80c-43f4-a9d5-c59326a79c95" width="60%"/></div>
+4. Add an <b>Integration</b>.  
+   <div align="center"><img src="https://github.com/user-attachments/assets/a69158df-4f7b-40e6-a6c1-a0bb6db296f6" width="60%"/></div>
+5. Create <b>Providers</b>.  
+   <div align="center"><img src="https://github.com/user-attachments/assets/2f1323d2-b25a-4a61-8ea5-a236c73a1b33" width="60%"/></div>
+   <div align="center"><img src="https://github.com/user-attachments/assets/03e21629-2b20-4ac5-b00c-a4880cf41c00" width="60%"/></div>
+6. Generate your <b>API Keys</b>.  
+   <div align="center"><img src="https://github.com/user-attachments/assets/9e2b0915-b3da-4f20-a687-95b80c88d3e2" width="60%"/></div>
+   <div align="center"><img src="https://github.com/user-attachments/assets/02fc9394-de9d-4f37-a1b0-a89a4f129c4e" width="60%"/></div>
+
+---
+
+### 2. Finalize Your Config
+
+Copy your API key, service, and provider details into the `Config` section above.
 
 ---
 
-## 🎉 Finish
+## 🎉 You're Done!
 
-**VOILA, YOU'RE DONE!**  
-Just insert your API key, service, and provider names into your config.
-
-> **Note**  
-> # By Jardin-ZumHub Yt
+Your professional key system is ready to protect your Roblox scripts.
 
 ---
+
+> **Crafted with ❤️ by [Jardin-ZumHub Yt](https://youtube.com/@Jardin-ZumHub)**
