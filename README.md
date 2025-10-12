@@ -14,52 +14,30 @@
 ## ⚙️ Config
 
 ```lua
--- Config Fields
-title = "ZumHub Key System"
-description = "Enter your key to access the script."
-discordInvite = "kv5wr2Naj"
-FileName = "Zumhubkey.txt"
-KeySystemData = {
-    Name = "ZumHub KeySystem",
-    Colors = {
-        Background = Color3.fromRGB(10, 10, 25),
-        BackgroundGradientFrom = Color3.fromRGB(10, 10, 30),
-        BackgroundGradientTo = Color3.fromRGB(5, 5, 15),
-        Title = Color3.fromRGB(0, 255, 200),
-        InputField = Color3.fromRGB(20, 20, 40),
-        InputFieldBorder = Color3.fromRGB(0, 200, 255),
-        Button = Color3.fromRGB(30, 30, 50),
-        ButtonHover = Color3.fromRGB(50, 50, 80),
-        Error = Color3.fromRGB(255, 80, 80),
-        Success = Color3.fromRGB(80, 255, 100),
-        Discord = Color3.fromRGB(160, 80, 255)
-    }, 
-    Service = "ZumHubKey",
-    SilentMode = false,
-    WebsiteURL = "https://yourwebsite.com/"
+-- Config Section
+Config = {
+    api = "__Yourapi__",
+    service = "__Youtservice__",
+    provider = "__YourProvider__",
+    discordInvite = "kv5wr2Naj", -- Change this to update the Discord invite link
+    title = "ZumHub Key System", -- Change this to update the GUI title
+    keyFileName = "Zumhubkey.txt", -- Change this to update the saved key filename
+    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Change this to update the script to execute
+    intro = {
+        enabled = true, -- Set to false to disable the intro
+        text = "Welcome to ZumHub", -- Change this to customize the intro text
+        duration = 2, -- Duration of the intro animation in seconds
+        textColor = Color3.fromRGB(0, 255, 200), -- Color of the intro text
+        backgroundColor = Color3.fromRGB(10, 10, 25), -- Background color of the intro
+        soundId = "rbxassetid://6655851046", -- Sound to play during intro (change to custom sound ID)
+        font = Enum.Font.SciFi, -- Font for the intro text (e.g., Enum.Font.SciFi, Enum.Font.SourceSans, etc.)
+        textSize = 24, -- Size of the intro text
+        iconId = "rbxassetid://0", -- Icon asset ID for the intro (change to a valid Roblox image asset ID, e.g., "rbxassetid://1234567890")
+        iconSize = UDim2.new(0, 100, 0, 100), -- Size of the icon (width, height in pixels)
+        enableBlur = true -- Set to true to enable blur effect on background, false to disable
+    }
 }
-
--- Default Config
-local Config = {
-    api = "__YourAPI__",
-    service = "__YOUR SERVICE__",
-    provider = "__YOUR PROVIDER__",
-    loadstringUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua" --enter your script 
-}
-
--- Allow manual override before script runs (e.g., in executor)
--- Example: getgenv().CustomConfig = {api = "newApi", service = "newService", provider = "newProvider", loadstringUrl = "newUrl"}
-if getgenv().CustomConfig then
-    local function updateConfig(newConfig)
-        if newConfig then
-            Config.api = newConfig.api or Config.api
-            Config.service = newConfig.service or Config.service
-            Config.provider = newConfig.provider or Config.provider
-            Config.loadstringUrl = newConfig.loadstringUrl or Config.loadstringUrl
-        end
-    end
-    updateConfig(getgenv().CustomConfig)
-end
+-- End Config Section
 ```
 
 ---
