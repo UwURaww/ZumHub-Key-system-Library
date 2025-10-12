@@ -45,7 +45,6 @@ Config = {
         discord = Color3.fromRGB(160, 80, 255) -- Discord button background
     }
 }
--- End Config Section
 ```
 
 ---
