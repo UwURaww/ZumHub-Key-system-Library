@@ -14,6 +14,7 @@
 ## ⚙️ Config
 
 ```lua
+-- Config Section
 Config = {
     api = "_API_",
     service = "_Service_",
@@ -21,7 +22,28 @@ Config = {
     discordInvite = "kv5wr2Naj", -- Change this to update the Discord invite link
     title = "ZumHub Key System", -- Change this to update the GUI title
     keyFileName = "Zumhubkey.txt", -- Change this to update the saved key filename
-    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua" -- Change this to update the script to execute
+    scriptUrl = "https://raw.githubusercontent.com/UwURaww/-ZumHub-Script-/refs/heads/main/Protected_6601639189420021.lua", -- Change this to update the script to execute
+    sounds = {
+        uiOpen = "rbxassetid://6655851046", -- Sound when UI opens
+        buttonClick = "rbxassetid://6655851046", -- Sound for button clicks
+        success = "rbxassetid://6655851046", -- Sound for successful key validation
+        successDiscord = "rbxassetid://6655851046", -- Sound for Discord button
+        error = "rbxassetid://6655851046", -- Sound for errors
+        accessDenied = "rbxassetid://6655851046" -- Sound for invalid key
+    },
+    colors = {
+        background = Color3.fromRGB(10, 10, 25), -- Main frame background
+        backgroundGradientFrom = Color3.fromRGB(10, 10, 30), -- Gradient start
+        backgroundGradientTo = Color3.fromRGB(5, 5, 15), -- Gradient end
+        title = Color3.fromRGB(0, 255, 200), -- Title and button text
+        inputField = Color3.fromRGB(20, 20, 40), -- Input field background
+        inputFieldBorder = Color3.fromRGB(0, 200, 255), -- Input field and button borders
+        button = Color3.fromRGB(30, 30, 50), -- Button background
+        buttonHover = Color3.fromRGB(50, 50, 80), -- Button hover background
+        error = Color3.fromRGB(255, 80, 80), -- Error message text
+        success = Color3.fromRGB(80, 255, 100), -- Success message text
+        discord = Color3.fromRGB(160, 80, 255) -- Discord button background
+    }
 }
 -- End Config Section
 ```
