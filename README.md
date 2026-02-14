@@ -135,9 +135,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/UwURaww/-ZumHub-Scrip
 Copy your API key, service, and provider details into the `Config` section above.
 ```lua
 Config = {
-    api = "_API_",
-    service = "_Service_",
-    provider = "_provider_",
+    api = "_API_", --the api
+    service = "_Service_",  --your service name
+    provider = "_provider_",  --your provider name
 ```
 
 ---
