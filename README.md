@@ -137,7 +137,8 @@ Copy your API key, service, and provider details into the `Config` section above
 Config = {
     api = "_API_",
     service = "_Service_",
-    provider = "_provider_",```
+    provider = "_provider_",
+```
 
 ---
 
